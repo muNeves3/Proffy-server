@@ -6,7 +6,7 @@
 
 ### -Route to create a new connection;
 
-## Classes
+## :notebook: Classes
 
 ### -Route to create a new class;
 
@@ -23,3 +23,22 @@
  ### sqlite3
 
 # :package: Run API
+
+### Clone repository
+
+```bash
+$ git clone https://github.com/muNeves3/Proffy-server
+$cd Proffy-server
+```
+
+### Install the dependencies
+
+```bash
+$npm install
+```
+
+### Run the application
+
+```bash
+$npm start
+```
