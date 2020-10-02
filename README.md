@@ -2,14 +2,15 @@
 
 ## :twisted_rightwards_arrows: Connections
 
--Rota para listar o total de conexões realizadas;
--Rota para criar uma nova conexão;
+-Route to list the total connections made;
+
+-Route to create a new connection;
 
 ## Classes
 
--Rota para criar uma aula;
--Rota para listar aulas;
--Filtrar por matéria, dia da semana e horário
+-Route to create a new class;
+-Route to list the Classes;
+-Route to filter classes by time, subject and week day;
 
 ## :computer: Technologies
 
