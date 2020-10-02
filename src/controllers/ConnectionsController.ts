@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Request, response, Response } from "express";
 import db from "../database/connection";
 
 export default class ConnectionsController {
@@ -18,4 +18,14 @@ export default class ConnectionsController {
     });
     return response.status(201).send();
   }
+
+  async delete(request: Request, response: Response) {
+    const { user_id } = request.body;
+    
+    await db("connections")
+    .where({user_id})
+    .del()
+    return response.status(201).send()
+  }
+
 }
