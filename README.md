@@ -1,12 +1,18 @@
-## Funcionalidades
+## Functionalities
 
-## Conexões
+## :twisted_rightwards_arrows: Connections
 
 -Rota para listar o total de conexões realizadas;
 -Rota para criar uma nova conexão;
 
-## Aulas
+## Classes
 
 -Rota para criar uma aula;
 -Rota para listar aulas;
 -Filtrar por matéria, dia da semana e horário
+
+## :computer: Technologies
+
+ **Typescript**
+ **knex**
+ **sqlite3**
