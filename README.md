@@ -42,3 +42,9 @@ $npm install
 ```bash
 $npm start
 ```
+
+### Routes to test
+
+<p>
+    <img src="./src/assets/Screenshot_1.png" />
+</p>
